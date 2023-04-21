@@ -26,15 +26,50 @@
     width: 10px;
     height: 10px;
     border-radius: 20px;
-    background-color: black;
+    background-color: rgb(10, 0, 92);
     margin: 10px;
 }
 
-.border1 {
+.bor1 {
     border: 5px solid black;
-    border-radius: 90px;
+    border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color: rgb(10, 0, 92);
+}
 
+.bor2 {
+    border: 5px solid black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(10, 0, 92);
+    background-color: rgb(10, 0, 92);
+}
+
+.label {
+    margin-left: 30px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: rgb(10, 0, 92);
+}
+
+.bg-con {
+    background-color: pink;
+    font-family: roboto;
+    color: rgb(10, 0, 92);
+    width: 120vh;
+}
+
+.xc {
+    color: #ffffff;
+}
+
+.p1 {
+    color: rgb(10, 0, 92);
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: bold;
 }
